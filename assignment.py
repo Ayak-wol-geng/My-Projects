@@ -1,0 +1,18 @@
+import tkinter
+app=tkinter.Tk()
+app.title('Signup Form')
+app.geometry('500x400')
+app.configure(bg='#FFB6C1')
+
+intro_label=tkinter.Label(app,text='Sign Up Form',font=('Calibri',16,'bold')).pack()
+name=tkinter.Label(app,text='Name',font=('Calibri',16)).place(x=10,y=40)
+name_entry=tkinter.Entry(app,font=('Calibri',16)).place(x=150,y=40)
+email=tkinter.Label(app,text='Email',font=('Calibri',16)).place(x=10,y=100)
+email_entry=tkinter.Entry(app,font=('Calibri',16)).place(x=150,y=100)
+age=tkinter.Label(app,text='Age',font=('Calibri',16)).place(x=10,y=170)
+age_entry=tkinter.Entry(app,font=('Calibri',16)).place(x=150,y=170)
+location=tkinter.Label(app,text='Location',font=('Calibri',16)).place(x=10,y=230)
+location_entry=tkinter.Entry(app,font=('Calibri',16)).place(x=150,y=230)
+tribe=tkinter.Label(app,text='Tribe',font=('Calibri',16)).place(x=10,y=280)
+tribe_entry=tkinter.Entry(app,font=('Calibri',16)).place(x=150,y=280)
+register_button=tkinter.Button(app,text='Register',bg='white').place(x=200,y=340)
